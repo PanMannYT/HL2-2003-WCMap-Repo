@@ -5,4 +5,5 @@ This modification includes:
 -Retail Assets
 -New areas
 
-The mod is still under development, so expect some bugs or unfinished areas/
+
+This is a developer repository, sharing any type of file from here is strictly prohibited.
