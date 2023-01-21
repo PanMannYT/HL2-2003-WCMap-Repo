@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "37"
+	"mapversion" "39"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "37"
+	"mapversion" "39"
 	"classname" "worldspawn"
 	"detaildist" "3000"
 	"detailmaterial" "detail/detailsprites"
@@ -2433,6 +2433,7 @@ entity
 	"origin" "448 -9 -984"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"targetname" "kleiner_fun_trigger"
 	connections
 	{
 		"OnTrigger" "kleiner_fun_text,ShowHudHint,,0,1"
@@ -2944,6 +2945,13 @@ entity
 	"spawnflags" "33284"
 	"wakeradius" "0"
 	"wakesquad" "0"
+	connections
+	{
+		"OnDamagedByPlayer" "kleiner_fun_ending,ShowHudHint,,0,-1"
+		"OnDamagedByPlayer" "kleiner_fun_trigger,Kill,,0,-1"
+		"OnDamagedByPlayer" "kleiner_fun,Kill,,0,-1"
+		"OnDamagedByPlayer" "kleiner_fun_bad_ending_trigger,Kill,,0,-1"
+	}
 	"origin" "1132 -12 -1023"
 	editor
 	{
@@ -7458,6 +7466,7 @@ entity
 	"origin" "640 0 -1912"
 	"spawnflags" "1"
 	"StartDisabled" "0"
+	"targetname" "kleiner_fun_bad_ending_trigger"
 	connections
 	{
 		"OnTrigger" "kleiner_fun_bad_ending,ShowHudHint,,0,1"
