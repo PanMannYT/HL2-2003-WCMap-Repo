@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "40"
+	"mapversion" "42"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "40"
+	"mapversion" "42"
 	"classname" "worldspawn"
 	"detaildist" "3000"
 	"detailmaterial" "detail/detailsprites"
@@ -7610,6 +7610,71 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "2442"
+	"classname" "point_spotlight"
+	"angles" "41.8029 183.213 -11.4871"
+	"HDRColorScale" ".7"
+	"renderamt" "255"
+	"rendercolor" "147 226 240"
+	"spawnflags" "3"
+	"spotlightlength" "768"
+	"spotlighttexture" "sprites/glow_test02.vmt"
+	"spotlightwidth" "196"
+	"origin" "245.511 -0.213684 -866.074"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 2000]"
+	}
+}
+entity
+{
+	"id" "2445"
+	"classname" "prop_static"
+	"angles" "-15 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_combine/combine_light002a.mdl"
+	"solid" "0"
+	"origin" "256 -0.000854492 -886.032"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 1500]"
+	}
+}
+entity
+{
+	"id" "2449"
+	"classname" "light_spot"
+	"_cone" "35"
+	"_constant_attn" "500000"
+	"_exponent" "1"
+	"_inner_cone" "12"
+	"_light" "147 226 240 2500"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" ".5"
+	"_quadratic_attn" "1"
+	"angles" "-41.8029 183.213 11.4871"
+	"fadetopatternrate" "0.1"
+	"pitch" "-41.8029"
+	"spawnflags" "0"
+	"origin" "243.921 0 -866.499"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 1000]"
 	}
 }
 cameras
