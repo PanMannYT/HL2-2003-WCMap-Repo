@@ -1,4 +1,4 @@
 # HL2-2003
 Worldcraft Map Repository
 
-This is a developer repository, sharing any type of file from here is strictly prohibited.
+Trashed due to U.S. Trade Restrictions emposed by GitHub and not willing to keep my repository public.
